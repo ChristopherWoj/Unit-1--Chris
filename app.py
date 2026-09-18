@@ -22,6 +22,6 @@ doubleSquares(1)
 
 
 for i in range (60):
-    square + 5
+    doubleSquares(2)
     t.right(5)
 
