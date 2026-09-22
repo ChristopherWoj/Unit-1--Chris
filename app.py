@@ -26,9 +26,3 @@ for i in range (60):
     doubleSquares(2)
     t.right(5)
 
-for _ in range(60):
-    length += 5                 
-    length_history.append(length)
-
-    print("First 5 steps:", length_history[:5])
-print("Final length:", length_history[-1])
