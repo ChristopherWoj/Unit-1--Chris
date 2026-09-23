@@ -1,6 +1,7 @@
 import turtle
 from turtle import *
-t = Turtle()
+t = Turtle() 
+"""
 
 t.shape('turtle')
 
@@ -19,10 +20,15 @@ def doubleSquares(iRange):
     for i in range(iRange):
         square(length, 90)
         length = length + 5
-doubleSquares(1)
+doubleSquares(1) """
 
 
-for i in range (60):
-    doubleSquares(2)
-    t.right(5)
-
+def spiral(x):
+    sidelength = 5
+    for i in range (x):
+        for i in range (4):
+            t.forward(sidelength)
+            t.right(90)
+        sidelength += 5
+        t.right(5)
+spiral(60)
