@@ -1,7 +1,6 @@
 import turtle
 from turtle import *
 t = Turtle() 
-"""
 
 t.shape('turtle')
 
@@ -9,7 +8,7 @@ sidelength = 100
 rotate = 90
 length_history=[]
 
-def square(x,y):
+""" def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
