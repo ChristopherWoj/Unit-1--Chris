@@ -30,4 +30,4 @@ def spiral(x):
             t.right(144)
         sidelength += 5
         t.right(5)
-spiral(60)
+spiral(100)
